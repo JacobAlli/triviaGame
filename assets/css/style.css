@@ -1,0 +1,121 @@
+
+.timerModal{
+    display: inline-block;
+    background: #fff;
+    position: fixed;
+    bottom: 10%;
+    right: 13%;
+    font-size: 76px;
+    padding: 35px;
+    line-height: 76px;
+    border-radius: 100%;
+    box-shadow: 0 0 100px .5px rgba(0, 0, 0, 0.9);
+    display: none;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    z-index: 200;
+
+}
+
+.mainModal{
+    display: inline-block;
+    background: #fff;
+    position: fixed;
+    width: 70%;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+    display: none;
+}
+
+.modalHeader{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    background: coral;
+}
+
+.modalContent{
+    padding: 25px;
+}
+
+.modalFooter{
+    margin-top: 10px;
+    background: coral;
+    height: 6px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+#landingpage{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('http://usersthink.com/wp-content/uploads/30-usersthink-stock-image.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#landingpage h1 {
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.landingpage-content{
+
+}
+
+#startBtn{
+    position: fixed;
+    display: inline-block;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 35px;
+    color: #000;
+    border-radius: 5%;
+    border: 2px solid transparent;
+    letter-spacing: 3px;
+    font-size: 26px;
+    font-weight: lighter;
+    background: #fff;
+}
+
+#startBtn:hover,#startBtn:focus{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.answerBtn{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    background: #ccc;
+    color: white;
+    border: none;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.answerBtn:hover,.answerBtn:focus,.answerBtn:focus{
+    background: coral;
+    color: #fff;
+    border:coral;
+    outline: 0;
+}
